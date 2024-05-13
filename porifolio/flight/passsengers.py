@@ -1,7 +1,9 @@
 class Flight():
     def __init__(self, capacity):
         self.capacity = capacity
-        self.passenger = []
+        self.passengers = []
     
     def add_passenger(self, name):
-        
+        self.passengers.append(name)
+    
+    def open_seats():
