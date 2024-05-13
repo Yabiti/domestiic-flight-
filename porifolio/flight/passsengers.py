@@ -14,4 +14,8 @@ class Flight():
 
 flight = Flight(3)
 
-for person in people
+people = ["hermione", "harry", "draco", "lala"]
+for person in people:
+    success = Flight.add_passenger(person)
+    if success:
+        print
