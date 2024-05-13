@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Domestic Flight</title>
+        <link href="{% static 'flight/home.css' %}" rel="stylesheet">
+    </head>
+    <body>
+        <div id="head">
+            <h1>Welcome To Ethiopian Airlines</h1>
+        </div>
+        <div id="form">
+            <ul>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+        <div class="form">
+            <select id="selector">
+                <span>from</span>
+                <option>Addis Ababa</option>
+                <option>Hawassa</option>
+                <option>Dire Dawa</option>
+                <option>Mekelle</option>
+            </select>
+            <select id="select">
+                <option>Where are you going?</option>
+                <option>Addis Ababa</option>
+                <option>hawassa</option>
+                <option>Dire Dawa</option>
+                <option>Mekelle</option>
+            </select>
+            <div class="button">
+                <button type="submit">Continue</button>
+            </div>
+        </div>
+        <div class="jo">
+        <div class="class">
+            <img src="ha.jpg">
+            <p>Book your flight ticket from Hawassa to Addis Ababa,<br>immerse yourself with Ethiopian culture and hospitality</p>
+            <a href="" class="btn">Book Now</a>
+        </div>
+        <div class="class">
+            <img src="di.jpg">
+            <p>Book your flight ticket from Dire Dawa to Addis Ababa,<br>immerse yourself with Ethiopian culture and hospitality</p>
+            <a href="" class="btn">Book Now</a>
+        </div>
+        <div class="class">
+            <img src="me.jpg">
+            <p>Book your flight ticket from Mekelle to Addis Ababa,<br>immerse yourself with Ethiopian culture and hospitality</p>
+            <a href="" class="btn">Book Now</a>
+        </div>
+        </div>
+        <div id="about">
+            <div class="about">
+                <img src="air.jpg">
+                <a href="" class="btn">History</a>
+            </div>
+            <div class="about">
+                <img src="air2.jpg">
+                <a href="" class="btn">Mission And Vission</a>
+            </div>
+            <div class="about">
+                <img src="air3.jpg">
+                <a href="" class="btn">Awards</a>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="contact">
+                <img src="dy.jpg">
+                <h3>Contact Our Call Center</h3>
+                <p>Our call center ia availablw 24/7<br>to assist with booking, reservation<br>
+                ticket changes and any travel-related questions</p>
+            </div>
+        </div>
+    </body>
+</html>
