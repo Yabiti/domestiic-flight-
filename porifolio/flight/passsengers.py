@@ -1,1 +1,2 @@
-class Flight()
+class Flight():
+    self.
