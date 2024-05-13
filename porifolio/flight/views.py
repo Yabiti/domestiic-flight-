@@ -5,7 +5,3 @@ from django.shortcuts import render
 
 def home(request):
     return render(request, "flight/home.html")
-
-def register(request):
-    return render(request, "flight/register.html")
-
