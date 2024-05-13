@@ -7,5 +7,5 @@ def home(request):
     return render(request, "flight/home.html")
 
 def register(request):
-    return render(request, "flight/reg.html")
+    return render(request, "flight/register.html")
 
