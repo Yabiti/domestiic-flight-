@@ -1,4 +1,7 @@
 class Flight():
-    def __init__(self, passenger):
-        self.passenger = passenger
-        self.capacity = []
+    def __init__(self, capacity):
+        self.capacity = capacity
+        self.passenger = []
+    
+    def add_passenger(self, name):
+        
